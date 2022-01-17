@@ -1,0 +1,38 @@
+.container-xl {
+    margin-top: 20px;
+    border: black 2px solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;   
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: red 2px solid;    
+}
+
+.row p {
+    text-align: center;
+}
+
+.bg-nav {
+    background-color: rgb(146, 146, 146);
+}
+
+.col-2 {
+    border: blue 2px solid;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+
+.col-2 p{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

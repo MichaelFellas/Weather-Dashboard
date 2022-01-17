@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+     <!--Bootsrap script-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+     <!--Css Sheet-->
+    <link rel="stylesheet" href="./Assets/css/stylesheet.css" />
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-nav">
+        
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="City, Country" aria-label="Search" Id="form">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" Id='formBtn'>Search</button>
+        </form>
+        <a class="navbar-brand">Weather Dashboard</a>
+      </nav>
+      <div class="container-xl">
+          
+          <div class="row">
+              <p>CITY, DATE & TIME</p>
+          </div>          
+          <div class="row">
+              <p>TEMP</p>              
+        </div>
+        <div class="row">
+            <p>WIND</p>              
+        </div>
+        <div class="row">
+            <p>Humidity</p>              
+        </div>
+        <div class="row">
+            <p>UV</p>              
+        </div>
+      </div>
+      <div class="container-xl">
+        <h2>5 DAY FORECAST</h2>
+          <div class ="row d-flex">
+              <div class="col-2">
+                  <p>Day ONE</p>
+              </div>
+              <div class="col-2">
+                <p>Day TWO</p>
+            </div>
+            <div class="col-2">
+                <p>Day THREE</p>
+            </div>
+            <div class="col-2">
+                <p>Day FOUR</p>
+            </div>
+            <div class="col-2">
+                <p>Day FIVE</p>
+            </div>
+          </div>
+      </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="Assets/js/javascript.js"></script>
+</body>
+</html>
