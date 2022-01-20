@@ -19,16 +19,15 @@ In the assets folder you will find
 1. The guidelines to this homework
 2. The css style sheet for the index.html
 3. The screenshot of the finished website which is pictured below.
-4. The javascript used to run the planner
-5. Assets used in the planner buttons
+4. The javascript used to run the dashboard.
 
 ## Secreenshot
 
-![Coding-Quiz-Screenshot](./Assets/images/day-Planner.png)
+![Coding-Quiz-Screenshot](./Assets/images/weatherDashScreenshot.png)
 
 ## Webpage URL
-[Day-Planner-URL](https://https://michaelfellas.github.io/Daily-Planner/)
+[Day-Planner-URL](https://michaelfellas.github.io/Weather-Dashboard/)
 
 ### End
 
-Michael Ariti 2021
+Michael Ariti 2022
