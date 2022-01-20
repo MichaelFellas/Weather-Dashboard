@@ -39,18 +39,7 @@ body {
     border-bottom: white 5px solid;
 }
 
-.col-1 {
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    margin-bottom: 10px;
-}
 
-.col-1 p{
-    font-size: 15px;
-    padding: 5px;
-    margin-left: -15px;   
-}
 
 .col-2 {
     border: white 2px solid;
@@ -78,6 +67,19 @@ body {
 
 .col-4 p{
     font-size: 25px;
+}
+
+.col-1 {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.col-1 p{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: -15px;   
 }
 
 #formBtn {
