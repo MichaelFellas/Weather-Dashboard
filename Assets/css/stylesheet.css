@@ -1,18 +1,33 @@
+/*BODY*/
+body {
+    background-color: rgb(97, 142, 240);
+}
+
+/*Bootstrap stuff*/
 .container-xl {
-    margin-top: 20px;
-    border: black 2px solid;
+    margin-top: 20px;    
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;   
+    justify-content: space-evenly;
+}
+
+.container-xl-2 {
+    margin-top: 20px;   
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;   
+    justify-content: space-evenly;
 }
 
 .row {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    border: red 2px solid;    
+    display: block;    
+    justify-content: space-between;   
 }
 
 .row p {
@@ -20,19 +35,147 @@
 }
 
 .bg-nav {
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(59, 200, 255);
+    border-bottom: white 5px solid;
+}
+
+.col-1 {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.col-1 p{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: -15px;   
 }
 
 .col-2 {
-    border: blue 2px solid;
-    margin-right: 28px;
-    margin-left: 28px;
-}
+    border: white 2px solid;
+    background-color: rgb(57, 180, 252);
+   }
 
 .col-2 p{
     text-align: center;
+    font-size: 25px;
+}
+
+.col-8 {
+    justify-content: space-between;
+    border: white 2px solid;
+    background-color: rgb(57, 180, 252);
+}
+.col-8 p{
+    font-size: 25px;
+}
+
+.col-4 {
+    border: white 2px solid;
+    background-color: rgb(57, 180, 252);
+}
+
+.col-4 p{
+    font-size: 25px;
+}
+
+#formBtn {
+    background-color: white;
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+/*HTML SEMANTICS*/
+h1 {
+    text-align: center;
+    border: white solid 5px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(57, 180, 252);
 }
 
 h2 {
     text-align: center;
+    border: white solid 3px;
+    margin: 30px;
+    padding: 5px;
+    background-color: rgb(57, 180, 252);
+    margin-bottom: 40px;
 }
+
+/*UV box stuff*/
+.UVcolor {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+}
+
+#uvBox1 {
+    height: 20px;
+    width: 20px;
+    background-color: #0b6b00;   
+}
+
+#uvBox2 {
+    height: 20px;
+    width: 20px;
+    background-color: #fcf405;       
+}
+
+#uvBox3 {
+    height: 20px;
+    width: 20px;
+    background-color: #fc8d05;       
+}
+
+#uvBox4 {
+    height: 20px;
+    width: 20px;
+    background-color: #fc0505;       
+}
+
+#uvBox5 {
+    height: 20px;
+    width: 20px;
+    background-color: #9e028c;    
+}
+
+/*Custom classes for top and bottom rows*/
+.today {
+    border-top: thistle solid 1px;
+    padding-top: 10px;
+}
+
+.todayTop {
+    padding-top: 10px;
+}
+
+.future {
+    border-top: white solid 1px;
+    padding-top: 10px;
+}
+
+.futureTop {
+    padding-top: 10px;
+}
+
+/*Dynamic button stuff*/
+
+.saveBtn {
+    border-radius: 5px;
+    border: solid 1px green;
+    margin-right: 75px;
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+.save-buttons {
+    align-items: center;
+}
+

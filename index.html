@@ -11,56 +11,124 @@
     <link rel="stylesheet" href="./Assets/css/stylesheet.css" />
 </head>
 <body>
-
-    <nav class="navbar navbar-light bg-nav">
-        
+<!--Navbar from Bootstrap-->
+    <nav class="navbar navbar-light bg-nav">        
         <form class="form-inline">
+          <!--Title-->
+          <a class="navbar-brand">Weather Dashboard</a>
+          <!--Searchbox-->
           <input class="form-control mr-sm-2" type="search" placeholder="City, Country" aria-label="Search" Id="form">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" Id='formBtn'>Search</button>
-        </form>
-        <a class="navbar-brand">Weather Dashboard</a>
+          <!--Search Button-->
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" Id='formBtn'>Search</button>          
+        </form> 
+        <div class="row d-flex">  
+        <div class="save-buttons d-flex"></div>   
+      </div>  
       </nav>
-      <div class="container-xl">
-          
-          <div class="row">
-              <p>CITY, DATE & TIME</p>
+      <div class="container-xl d-flex flex-column">
+        <div class="row">
+          <!--Header 1-->
+          <h1>TODAY'S WEATHER FORECAST</h1>
+        </div> 
+        <div class="container-xl-2 d-flex">       
+        <div class="col-8 d-flex flex-column"> 
+                 <!--Current day data loads here-->
+          <div class="row todayTop">
+              <p id=citySearched>CITY</p>
           </div>          
-          <div class="row">
-              <p>TEMP</p>              
+          <div class="row today">
+              <p id="currentTemp">TEMPERATURE</p>              
         </div>
-        <div class="row">
-            <p>WIND</p>              
+        <div class="row today">
+            <p id="currentWind">WIND SPEED</p>              
         </div>
-        <div class="row">
-            <p>Humidity</p>              
-        </div>
-        <div class="row">
-            <p>UV</p>              
+        <div class="row today">
+            <p id="currentHumidity">HUMIDITY</p>              
         </div>
       </div>
-      <div class="container-xl">
+      <div class="col-4">
+        <!--UV Data loads here-->
+        <div class="row">
+            <p id="currentUV">UV INDEX</p>              
+        </div>
+        <div class="row UVcolor" id="UVbox"></div>
+        <div class ="row d-flex align-items-start">
+          <!--UV SCALE loads here-->
+          <div class="col-1">
+            <p>LOW</p>
+            <div id="uvBox1"></div>
+          </div>
+          <div class="col-1 ">
+            <p>MODERATE</p>
+            <div id="uvBox2"></div>
+          </div>
+          <div class="col-1">
+            <p>HIGH</p>
+            <div id="uvBox3"></div>
+          </div>
+          <div class="col-1">
+            <p>VERYHIGH</p>
+            <div id="uvBox4"></div>
+          </div>
+          <div class="col-1">
+            <p>EXTREME</p>
+            <div id="uvBox5"></div>
+          </div>          
+        </div>
+      </div>
+      </div>
+      <!--5 Day forecast loads here-->
+      <div class="container-xl-2">
         <h2>5 DAY FORECAST</h2>
           <div class ="row d-flex">
               <div class="col-2">
-                  <p>Day ONE</p>
+                  <p id="date1" class="futureTop">DATE</p>
+                  <p id="wicon1" class="future"><img id="icon1" src="" alt="Weather icon1"></p>
+                  <p id="temp1" class="future">TEMP</p>
+                  <p id="wind1" class="future">WIND</p>
+                  <p id="humid1" class="future">HUMIDITY</p>
               </div>
               <div class="col-2">
-                <p>Day TWO</p>
+                <p id="date2" class="futureTop">DATE</p>
+                <p id="wicon2" class="future"><img id="icon2" src="" alt="Weather icon2"></p>
+                  <p id="temp2" class="future">TEMP</p>
+                  <p id="wind2" class="future">WIND</p>
+                  <p id="humid2" class="future">HUMIDITY</p>
             </div>
             <div class="col-2">
-                <p>Day THREE</p>
+                <p id="date3" class="futureTop">DATE</p>
+                <p id="wicon3" class="future"><img id="icon3" src="" alt="Weather icon3"></p>
+                  <p id="temp3" class="future">TEMP</p>
+                  <p id="wind3" class="future">WIND</p>
+                  <p id="humid3" class="future">HUMIDITY</p>
             </div>
             <div class="col-2">
-                <p>Day FOUR</p>
+                <p id="date4" class="futureTop">DATE</p>
+                <p id="wicon4" class="future"><img id="icon4" src="" alt="Weather icon4"></p>
+                  <p id="temp4" class="future">TEMP</p>
+                  <p id="wind4" class="future">WIND</p>
+                  <p id="humid4" class="future">HUMIDITY</p>
             </div>
             <div class="col-2">
-                <p>Day FIVE</p>
+                <p id="date5" class="futureTop">DATE</p>
+                <p id="wicon5" class="future"><img id="icon5" src="" alt="Weather icon5"></p>
+                  <p id="temp5" class="future">TEMP</p>
+                  <p id="wind5" class="future">WIND</p>
+                  <p id="humid5" class="future">HUMIDITY</p>
             </div>
           </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
       </div>
 
-
+<!--JQuery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--Moment-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<!--Javascript-->
 <script src="Assets/js/javascript.js"></script>
 </body>
 </html>
