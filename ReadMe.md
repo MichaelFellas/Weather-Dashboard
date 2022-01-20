@@ -26,7 +26,7 @@ In the assets folder you will find
 ![Coding-Quiz-Screenshot](./Assets/images/weatherDashScreenshot.png)
 
 ## Webpage URL
-[Day-Planner-URL](https://michaelfellas.github.io/Weather-Dashboard/)
+[Weather-Dashboard-URL](https://michaelfellas.github.io/Weather-Dashboard/)
 
 ### End
 
