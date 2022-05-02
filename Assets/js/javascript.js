@@ -351,6 +351,7 @@ function pageOpen () {
     fetch(googleAPIurl)
    .then(function (response) {
     return response.json();
+        console.log(response);
    })
    .then(function (response) {
        //Assigns cities latitude to var cityLat
