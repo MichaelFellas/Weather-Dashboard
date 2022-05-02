@@ -26,6 +26,7 @@ $Form.on('submit', function(getWeather){
     googleAPIurl = 'https://maps.googleapis.com/maps/api/geocode/json?address='+ city + ',+CA&key=AIzaSyBSvswXIC_tm9l7YuRJc_jTJ44EHfsqC-o';
     fetch(googleAPIurl)
    .then(function (response) {
+        console.log(response);
     return response.json();
    })
    .then(function (response) {
