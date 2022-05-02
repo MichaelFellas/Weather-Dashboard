@@ -354,6 +354,7 @@ function pageOpen () {
         console.log(response);
    })
    .then(function (response) {
+        console.log(response);
        //Assigns cities latitude to var cityLat
     var cityLat = response.results[0].geometry.location.lat
     //Assigns cities longdituse to var cityLng
